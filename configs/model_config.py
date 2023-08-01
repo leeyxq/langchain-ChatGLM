@@ -16,7 +16,7 @@ embedding_model_dict = {
     "ernie-tiny": "nghuyong/ernie-3.0-nano-zh",
     "ernie-base": "nghuyong/ernie-3.0-base-zh",
     "text2vec-base": "shibing624/text2vec-base-chinese",
-    "text2vec": "GanymedeNil/text2vec-large-chinese",
+    "text2vec": "/root/autodl-tmp/text2vec-large-chinese",
     "text2vec-base-multilingual": "shibing624/text2vec-base-multilingual",
     "text2vec-base-chinese-sentence": "shibing624/text2vec-base-chinese-sentence",
     "text2vec-base-chinese-paraphrase": "shibing624/text2vec-base-chinese-paraphrase",
@@ -57,7 +57,7 @@ llm_model_dict = {
     "chatglm-6b": {
         "name": "chatglm-6b",
         "pretrained_model_name": "THUDM/chatglm-6b",
-        "local_model_path": None,
+        "local_model_path": "/root/autodl-tmp/chatglm-6b",
         "provides": "ChatGLMLLMChain"
     },
     # langchain-ChatGLM 用户“帛凡” @BoFan-tunning 基于ChatGLM-6B 训练并提供的权重合并模型和 lora 权重文件 chatglm-fitness-RLHF
@@ -72,7 +72,7 @@ llm_model_dict = {
     "chatglm2-6b": {
         "name": "chatglm2-6b",
         "pretrained_model_name": "THUDM/chatglm2-6b",
-        "local_model_path": None,
+        "local_model_path": "/root/autodl-tmp/chatglm2-6b",
         "provides": "ChatGLMLLMChain"
     },
     "chatglm2-6b-32k": {
